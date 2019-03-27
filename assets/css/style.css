@@ -1,0 +1,339 @@
+body {
+    background-color: #EFD699FF;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header img {
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 14%;
+    max-width: 65%;
+}
+
+header nav {
+    margin-right: 11%;
+    float: right;
+    margin-top: 38px;
+    text-decoration: none;
+    text-align: center;
+    color: #a7acb0;
+    font-size: 1.25em;
+    /*font-weight: bold;*/
+}
+
+header nav a {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    color: #666666;
+    font-size: 1.25em;
+}
+
+header nav a:hover {
+    color: teal;
+}
+
+header {
+    display: absolute;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+    min-height: 100px;
+    overflow: auto;
+}
+
+.header-name p {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    vertical-align: center;
+    font-size: 2.5em;
+    font-family: 'Broadway', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 14%;
+    height: 90px;
+    line-height: 90px;
+    padding-right: 3%;
+    overflow: hidden;
+}
+
+header nav div {
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    margin: 0 10px;
+    height: .75em;
+}
+
+.wrapper {
+    max-width: 960px;
+    min-height: 750px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    border: #dddddd;
+    border-style: solid;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.wrapper-portfolio {
+    max-width: 960px;
+    min-height: 800px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    border: #dddddd;
+    border-style: solid;
+    overflow: auto;
+}
+
+.wrapper-contact {
+    max-width: 960px;
+    min-height: 600px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    border: #dddddd;
+    border-style: solid;
+    overflow: auto;
+}
+
+.about-me,
+.portfolio,
+.contact {
+    width: 600px;
+    min-width: 270px;
+    max-width: 60%;
+    float: left;
+    border: black;
+    border-style: double;
+    margin-top: 5%;
+    padding-left: 15px;
+    padding-right: 7px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.about-me {
+    min-width: 270px;
+    padding-bottom: 15px;
+}
+
+
+.about-me img {
+    max-height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+.portfolio {
+    overflow-x: auto;
+}
+
+.portfolio-image {
+    position: relative;
+    width: 250px;
+    margin: 3%;
+    padding: 0;
+    float: left;
+    overflow: auto;
+    opacity: .75;
+}
+
+.portfolio-image:hover {
+    opacity: 1;
+}
+
+.portfolio-image img {
+    float: left;
+    width: 250px;
+    height: 180px;
+    padding: 0;
+    margin: 0;
+    max-height: 182px;
+    z-index: 2;
+}
+
+.portfolio-image h2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 3;
+    margin-top: 125px;
+    text-align: center;
+    opacity: .8;
+}
+
+.connect {
+    width: 270px;
+    float: left;
+    border: black;
+    border-style: double;
+    margin: 5% 3%;
+    padding-right: 7px;
+    padding-left: 7px;
+    /*	margin-left: 15px;
+	margin-right: 0;
+*/
+}
+
+.connect hr {
+    display: block;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.connect img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: .2px;
+}
+
+.connect img:hover {
+    background-color: #4aaaa5;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-indent: 40px;
+    padding: 5px;
+}
+
+.about-me p {
+    margin-top: 5%;
+}
+
+.second-p {
+    margin-bottom: -20px;
+}
+
+.connect h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/*Makes it so the contact form area highlights when you have it clicked on*/
+
+input:focus,
+textarea:focus {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+input {
+    width: 250px;
+}
+
+.message-form {
+    width: 265px;
+    max-width: 270px;
+    min-height: 50px;
+    height: 75px;
+    max-height: 150px;
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+html,
+body {
+    background-color: #EFD699FF;
+    background-image: url("../images/folk-pattern.png");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    border-top: thick solid teal;
+    border-width: 7px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    border-width: 7px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
